@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Audio Player</title>
+</head>
+<body>
+    <div class="container">
+        <div class="block_img">
+            <img id="trackImg" src="" alt="Track Cover">
+        </div>
+        <div class="track_info">
+            <h2 id="trackTitle">Track Title</h2>
+        </div>
+        <audio id="audioPlayer" controls></audio>
+        <div class="controls">
+            <button id="prevBtn">Prev</button>
+            <button id="playPauseBtn">Play</button>
+            <button id="nextBtn">Next</button>
+        </div>
+    </div>
+    <button id="playlistButton" class="playlist-button">☰</button>
+    <div id="playlist" class="playlist"></div>
+    <script src="js/items.js" type="module"></script>
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>
